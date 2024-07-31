@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="./styl.css">
+</head>
+
+<body>
+    <div class="todoList">
+        <h1>LOGIN</h1>
+        <form action="">
+            <input type="text" name="username" id="username" placeholder="Username">
+            <input type="email" name="mail" id="mail" placeholder="Email">
+            <input type="date" name="date" id="date" placeholder="Date">
+            <select name="degree" id="degree">
+                <option value="B.E">B.E</option>
+                <option value="M.E">M.E</option>
+                <option value="B.C.A">B.C.A</option>
+                <option value="M.C.A">M.C.A</option>
+                <option value="B.Sc">B.Sc</option>
+                <option value="M.Sc">M.Sc</option>
+            </select>
+            <div class="checkbox-group">
+                <input type="checkbox" name="location" id="location-chennai">
+                <label for="location-chennai">Chennai</label>
+                <input type="checkbox" name="location" id="location-bangalore">
+                <label for="location-bangalore">Bangalore</label>
+                <input type="checkbox" name="location" id="location-delhi">
+                <label for="location-delhi">Delhi</label>
+            </div>
+            <div class="radio-group">
+                <input type="radio" name="gender" id="gender-male">
+                <label for="gender-male">Male</label>
+                <input type="radio" name="gender" id="gender-female">
+                <label for="gender-female">Female</label>
+            </div>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+
+    <div class="userList">
+        <ul>
+            <li>Name <span>Email</span><span>Date</span><span>Degree</span>
+                <span>Location</span><span>Gender</span>
+            </li>
+        </ul>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
